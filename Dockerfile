@@ -1,7 +1,7 @@
 # Cloud9 server
 # Inspired by https://github.com/sapk/dockerfiles/blob/master/cloud9/Dockerfile
 
-FROM node:slim
+FROM node:6.10-slim
 MAINTAINER Jonathan Camenzuli <jrcamenzuli@gmail.com>
 
 RUN \
